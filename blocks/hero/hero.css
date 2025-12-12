@@ -1,5 +1,5 @@
 .hero.hero-layout {
-  background: linear-gradient(135deg, #eef4ff, #ffffff);
+  background: linear-gradient(135deg, #eef4ff, #fff);
   padding: 60px 40px;
 }
 
@@ -15,7 +15,7 @@
   border-radius: 12px;
 }
 
-@media (max-width: 900px) {
+@media (width <= 900px) {
   .hero-row {
     grid-template-columns: 1fr;
     text-align: center;

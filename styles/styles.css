@@ -238,6 +238,10 @@ main > .section > div {
   padding: 0 24px;
 }
 
+.section:first-of-type {
+  margin-top: var(--nav-height);
+}
+
 main > .section:first-of-type {
   margin-top: 0;
 }
@@ -254,8 +258,4 @@ main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
-}
-
-.section:first-of-type {
-  margin-top: var(--nav-height);
 }
