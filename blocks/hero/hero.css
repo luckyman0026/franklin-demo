@@ -1,37 +1,23 @@
-.hero-container .hero-wrapper {
-  max-width: unset;
-  padding: 0;
+.hero.hero-layout {
+  background: linear-gradient(135deg, #eef4ff, #ffffff);
+  padding: 60px 40px;
 }
 
-.hero {
-  position: relative;
-  padding: 40px 24px;
-  min-height: 300px;
+.hero-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
 }
 
-.hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
-}
-
-.hero picture {
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  object-fit: cover;
-  box-sizing: border-box;
-}
-
-.hero img {
-  object-fit: cover;
+.hero-row img {
   width: 100%;
-  height: 100%;
+  border-radius: 12px;
 }
 
-@media (width >= 900px) {
-  .hero {
-    padding: 40px 32px;
+@media (max-width: 900px) {
+  .hero-row {
+    grid-template-columns: 1fr;
+    text-align: center;
   }
 }

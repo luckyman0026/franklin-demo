@@ -1,0 +1,27 @@
+.features {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 32px;
+}
+
+.features-layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding-top: 20px;
+}
+
+.features-layout div {
+  background: #f4f8ff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #dce7ff;
+}
+
+.features-layout h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}

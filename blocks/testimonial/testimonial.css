@@ -1,0 +1,18 @@
+.testimonial-card {
+  background: #f5f9ff;
+  padding: 32px;
+  border-left: 6px solid #4a7aff;
+  border-radius: 6px;
+  font-size: 20px;
+  max-width: 600px;
+}
+
+.testimonial-card blockquote {
+  margin: 0 0 16px 0;
+  font-style: italic;
+}
+
+.testimonial-card .author {
+  font-weight: bold;
+  color: #333;
+}
